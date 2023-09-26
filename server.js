@@ -33,8 +33,9 @@ app.get('/winningData', (req, res) => {
 app.get('/ipadress.js', (req, res) => {
   res.sendFile(path.join(__dirname, '/ipadress.js'));
 });
-
-
+app.get('/troll.png', (req, res) => {
+  res.sendFile(path.join(__dirname, '/troll.png'));
+});
 
 
 
