@@ -16,28 +16,29 @@
       }
       
       .ticket {
-          border: 1px solid #ccc;
-          padding: 10px;
-          margin: 10px;
-          display: inline-block;
-          width: 250px;
-          text-align: left;
-          background-color: #f9f9f9;
-      }
-      
-      #ticket-list {
-          margin: 20px;
-      }
-      
-          </style>
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f5f5f5;
+}
 
+/* Style for the ticket number */
+.ticket .ticket-number {
+    font-weight: bold;
+    color: #333;
+}
 
+/* Style for the city */
+.ticket .city {
+    color: #666;
+}
 
-
-
-    <style>
-
-      
+/* Style for the amount */
+.ticket .amount {
+    font-weight: bold;
+    color: #007bff;
+}
 
 
 
@@ -148,11 +149,8 @@
 
 
       <div id="Winnings" class="tabcontent">
-        <h3>Winnings</h3>
         <h1>Ticket Information</h1>
-        <div id="ticket-list">
-            <!-- Ticket information will be displayed here -->
-        </div>
+        <div id="userData"></div>
     
         <script src="winnings.js"></script>
       </div>
