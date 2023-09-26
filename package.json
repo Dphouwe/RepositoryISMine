@@ -1,13 +1,13 @@
 {
   "name": "repositoryismine",
   "version": "1.0.0",
-  "description": "",
+  "description": "It is my work",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["name" , "version" , "description", "main" , "scripts" , "keywords" , "author" , "license" , "dependencies" ],
   "author": "Dhairya Dalal",
   "license": "ISC",
   "dependencies": {
