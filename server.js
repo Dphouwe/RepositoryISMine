@@ -6,7 +6,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 
-
+app.get('/data.json', (req, res) => {
+  res.sendFile(path.join(__dirname, '/data.json'));
+});
 app.get('/winnings.js', (req, res) => {
   res.sendFile(path.join(__dirname, '/winnings.js'));
 });
